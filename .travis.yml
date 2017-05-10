@@ -1,7 +1,12 @@
 language: java
+
+language: java
 sudo: false # faster builds
 
-script: "mvn cobertura:cobertura"
+script: 
+- "mvn cobertura:cobertura"
+- mvn test -B
+- mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 
 after_success:
 - bash <(curl -s https://codecov.io/bash)
