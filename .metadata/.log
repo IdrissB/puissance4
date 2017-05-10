@@ -15,3 +15,6 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-10 14:49:40.278
 !MESSAGE Could not transfer metadata org.apache.maven.archetypes:maven-archetype-quickstart/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): connection timed out to http://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/maven-metadata.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-10 15:01:21.970
+!MESSAGE Could not transfer metadata org.apache.maven.plugins:maven-source-plugin/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): connection timed out to http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/maven-metadata.xml
