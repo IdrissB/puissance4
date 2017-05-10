@@ -9,3 +9,5 @@ Vous serez évalués sur la cohérence de votre applicatif avec ces spécificati
 Pour soumettre votre réponse, et gagner une place pour Devoxx, vous devrez nous envoyer le zip généré par la commande 
 	mvn package
 par mail à jmcaillaud@ippon.fr
+
+
